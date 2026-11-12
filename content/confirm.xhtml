@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>确认分类去重</title>
+  <style>
+    body { font: menu; margin: 16px; min-width: 500px; }
+    #list { height: 330px; overflow: auto; border: 1px solid #aaa; padding: 8px 8px 8px 32px; }
+    li { padding: 3px 0; overflow-wrap: anywhere; }
+    .buttons { text-align: right; margin-top: 12px; }
+    button { margin-left: 8px; padding: 4px 14px; }
+  </style>
+  <script src="confirm.js"></script>
+</head>
+<body>
+  <h3>以下文献将从上层分类移除</h3>
+  <p id="summary"></p>
+  <p>文献及其子分类归属不会被删除。请检查全部条目：</p>
+  <ol id="list"></ol>
+  <div class="buttons"><button id="cancel">取消</button><button id="confirm">确认移除</button></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "分类去重",
+  "version": "1.0.1",
+  "description": "将已属于子分类的条目从上层分类中移除",
+  "applications": {
+    "zotero": {
+      "id": "collection-cleaner@local.zotero",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://example.invalid/collection-cleaner/updates.json"
+    }
+  }
+}
